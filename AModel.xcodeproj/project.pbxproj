@@ -13,6 +13,7 @@
 		BF4FB17C21215380007DF7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4FB17B21215380007DF7AC /* Assets.xcassets */; };
 		BF4FB17F21215380007DF7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4FB17D21215380007DF7AC /* LaunchScreen.storyboard */; };
 		BF4FB18221215380007DF7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB18121215380007DF7AC /* main.m */; };
+		BF4FB19021215FB5007DF7AC /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4FB18E21215FB5007DF7AC /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BF4FB17E21215380007DF7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4FB18021215380007DF7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4FB18121215380007DF7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF4FB18E21215FB5007DF7AC /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		BF4FB18F21215FB5007DF7AC /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BF4FB17121215380007DF7AC /* AModel */ = {
 			isa = PBXGroup;
 			children = (
+				BF4FB18F21215FB5007DF7AC /* AViewController.h */,
+				BF4FB18E21215FB5007DF7AC /* AViewController.m */,
 				BF4FB17221215380007DF7AC /* AppDelegate.h */,
 				BF4FB17321215380007DF7AC /* AppDelegate.m */,
 				BF4FB17521215380007DF7AC /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4FB19021215FB5007DF7AC /* AViewController.m in Sources */,
 				BF4FB17721215380007DF7AC /* ViewController.m in Sources */,
 				BF4FB18221215380007DF7AC /* main.m in Sources */,
 				BF4FB17421215380007DF7AC /* AppDelegate.m in Sources */,
